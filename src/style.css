@@ -1,11 +1,16 @@
 body {
   background-color: rgb(216, 218, 218);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: dosis;
 }
 
 h1 {
   text-align: center;
+  font-size: 48px;
+  color: rgb(4, 4, 112);
+}
+h2 {
   font-size: 36px;
+  color: rgb(4, 4, 112);
 }
 
 select {
@@ -13,11 +18,12 @@ select {
   width: 100%;
   border-radius: 5px;
   padding: 10px;
-  font-size: 16px;
+  font-size: 20px;
+  font-family: dosis;
 }
 footer {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 24px;
   font-size: small;
 }
 .container {
@@ -32,15 +38,15 @@ footer {
   display: flex;
   justify-content: space-between;
   border-bottom: 1px dashed rgba(120, 120, 120, 0.5);
-  padding: 20px 0;
+  padding: 10px 0;
 }
 .city:last-child {
   border: none;
 }
 
 .time {
-  margin-top: 20px;
-  font-size: 36px;
+  margin-top: 25px;
+  font-size: 40px;
   font-weight: bold;
 }
 .time small {
